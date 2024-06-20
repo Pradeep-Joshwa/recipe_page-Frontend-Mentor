@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "outfit-variable";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Youngserif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+    font-family: outfit-variable;
+
+}
+
+*:not(h1, h2, h3) {
+    font-size: 12px;
+}
+
+.img img {
+    height: 16.5rem;
+    width: 465px;
+    border-radius: 1rem;
+
+
+}
+
+.menu {
+    width: 465px;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 1.8rem;
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 1rem;
+    margin-bottom: 0%;
+}
+
+h1,
+h2 {
+    font-family: youngserif;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin: .5rem;
+
+}
+
+.first {
+
+    width: 470px;
+    font-weight: 400;
+
+
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 1rem;
+    color: hsl(332, 51%, 32%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h3 {
+    display: inline;
+}
+
+.prep li {
+    padding: .3rem;
+    margin: .3rem;
+    margin-left: 1rem;
+    color: hsl(24, 5%, 18%);
+}
+
+li {
+    padding: .5rem 0;
+    color: hsl(24, 5%, 18%);
+}
+
+ol {
+
+    padding-left: 1.5rem;
+
+
+
+}
+
+li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+.ins {
+    border-bottom: 1px solid rgba(128, 128, 128, .4);
+    margin-bottom: 2rem;
+    color: hsl(24, 5%, 18%);
+
+
+}
+
+.nut p {
+    padding-left: .5rem;
+    color: hsl(24, 5%, 18%);
+}
+
+table {
+    margin-left: .5rem;
+}
+
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, .4);
+}
+
+.gram {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    padding-left: 10rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, .4);
+}
+
+.nut td:not(.gram) {
+    padding-left: 1rem;
+    padding-right: 5rem;
+    color: hsl(24, 5%, 18%);
+}
+
+
+.noborder {
+    border: none;
+}
+
+@media screen and (max-width:375px){
+
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background:none;
+        width: 100%;
+    
+    }
+
+    .menu, .first, .nut{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .img img{
+      
+        width: 100%;
+       height: auto;
+        border-radius: 0;
+
+    }
+
+    .first, .prep,.ins,.ing ,.nut{
+        padding: 1rem;
+    }
+
+    .prep{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .gram {
+        
+        padding-left: 2rem;
+        width: 50%;
+    }
+   
+    
+}
