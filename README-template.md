@@ -21,11 +21,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 
+![Screenshot (149)](https://github.com/Pradeep-Joshwa/recipe_page-Frontend-Mentor/assets/100898870/d1ed2301-f043-4380-a1e9-33db8d7c8472)
+![Screenshot (150)](https://github.com/Pradeep-Joshwa/recipe_page-Frontend-Mentor/assets/100898870/702faf43-15f0-49ac-9919-ac9aee0ac9e5)
+![Screenshot (151)](https://github.com/Pradeep-Joshwa/recipe_page-Frontend-Mentor/assets/100898870/e0794b13-7986-49ce-8c66-ce278e59b922)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/recipe-page-pradeep-joshwa-zhIXSpLdWv)
+- Live Site URL: [Click here](https://recipepage-pradeepjoshwa.netlify.app/)
 
 ## My process
 
